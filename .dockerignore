@@ -1,0 +1,17 @@
+.build_state
+.mypy_cache
+.pytest_cache
+coverage
+docs
+node_modules
+npm-debug.log
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
+.idea
+.github
