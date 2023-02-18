@@ -8,7 +8,7 @@ pipenv --version
 python -m pip install --no-cache-dir --user pipx
 python -m pipx ensurepath
 
-ENV PIP_ONLY_BINARY=""
+export PIP_ONLY_BINARY=""
 pipx install --pip-args="--no-cache-dir" "black"
 pipx install --pip-args="--no-cache-dir" "isort"
 pipx install --pip-args="--no-cache-dir" "pyupgrade"
