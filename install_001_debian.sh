@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 # Microsoft base image does not upgrade by default!
 apt-get update -q -y
 apt-get upgrade -y -q
